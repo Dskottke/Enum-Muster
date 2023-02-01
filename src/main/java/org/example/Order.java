@@ -13,5 +13,8 @@ public class Order {
         return status;
     }
 
+    public void setStatus(OrderStatus status) {
+        this.status = status;
+    }
 }
 
